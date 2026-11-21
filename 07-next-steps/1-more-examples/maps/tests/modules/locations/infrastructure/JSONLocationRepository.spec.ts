@@ -1,4 +1,5 @@
 import { createJSONLocationRepository } from "../../../../src/modules/locations/infrastructure/JSONLocationRepository";
+import locationsJSON from "../../../../src/modules/locations/infrastructure/locations.json";
 
 describe("JSONLocationRepository", () => {
 	it("maps every JSON location to a domain location", async () => {
@@ -6,11 +7,12 @@ describe("JSONLocationRepository", () => {
 
 		const locations = await repository.getAll();
 
-		expect(locations.length).toBeGreaterThan(0);
-		locations.forEach((location) => {
-			expect(typeof location.latitude).toBe("number");
-			expect(typeof location.longitude).toBe("number");
-			expect(typeof location.name).toBe("string");
-		});
+		expect(locations).toEqual(
+			locationsJSON.map(({ coords, name }) => ({
+				latitude: coords.lat,
+				longitude: coords.lng,
+				name,
+			}))
+		);
 	});
 });
