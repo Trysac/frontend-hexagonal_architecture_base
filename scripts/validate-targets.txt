@@ -1,0 +1,4 @@
+# <branch> <project-dir> <expect: pass|fail>
+fix/integration-e2e-jest-ignores-cypress 03-testing/3-integration-e2e pass
+fix/oo-course-title-validation 06-different-approaches/2-object-oriented pass
+test/maps-locations-tests 07-next-steps/1-more-examples/maps pass

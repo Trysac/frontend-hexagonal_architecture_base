@@ -1,0 +1,11 @@
+OK fix/integration-e2e-jest-ignores-cypress 03-testing/3-integration-e2e install=0 lint=0 test=0 expected=pass Tests:       5 passed, 5 total
+OK fix/oo-course-title-validation 06-different-approaches/2-object-oriented install=0 lint=0 test=0 expected=pass Tests:       4 passed, 4 total
+OK test/maps-locations-tests 07-next-steps/1-more-examples/maps install=0 lint=0 test=0 expected=pass Tests:       5 passed, 5 total
+OK gitleaks fix/integration-e2e-jest-ignores-cypress
+OK gitleaks fix/oo-course-title-validation
+OK gitleaks test/maps-locations-tests
+OK gitleaks dir docs
+OK gitleaks dir devlog
+OK gitleaks dir scripts
+OK gitleaks dir README.md
+OK gitleaks dir STATE.md

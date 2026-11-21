@@ -1,0 +1,7 @@
+- **Leer los PR abiertos del original antes de elegir mejoras.** En el repo de ejemplos, el arreglo más obvio ya estaba propuesto por otra persona; detectarlo pronto evitó un PR duplicado (E003).
+- **Diagnosticar con códigos de salida, no con `grep` de la salida.** Un fallo de configuración de ESLint pasó como "ok" en el primer diagnóstico (E008).
+- **Validar cada rama en un worktree limpio** (`npm ci` desde el lockfile) reprodujo lo que vería la CI de Codely y sacó a la luz dos problemas que el clon de trabajo ocultaba (E008, E009).
+- **Las revisiones independientes valieron la pena:** encontraron un test inestable 1 de cada ~4.650 veces que 5 repeticiones no podían ver (E010), un PR que llegaría en rojo (E011) y una afirmación falsa sobre la licencia (E012).
+- **Windows:** fijar `core.autocrlf=false` y `core.longpaths=true` en cuanto se clona un proyecto con Prettier y `node_modules` grandes (E001, E007).
+- **Mejoraríamos:** probar el script de validación con un solo objetivo antes de lanzarlo entero (E005, E006).
+- **Ramas de PR solo con `git add <rutas>`:** un `commit -a` arrastró al PR de CI un cambio del README del `main` del fork (E014). Lo arreglamos con un commit nuevo, porque no se permite force-push. La próxima vez: un worktree por rama.

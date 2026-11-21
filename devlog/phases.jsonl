@@ -1,0 +1,1 @@
+{"schema":"devlog.v1","type":"phase","phase":"F1","start":"2026-11-20T22:05:23-05:00","end":"2026-11-20T23:35:00-05:00","minutes":90,"sessions":1,"tokens_total":20296499,"cost_usd":9.37,"errors":14,"tests_total":50,"coverage_pct":null,"exit_criteria":"met","evidence":["evidence/2026-11-20/validate-summary.txt"]}
