@@ -21,8 +21,8 @@ Runner: `bash scripts/validate.sh`
 | T4 | 06-object-oriented: CourseTitle accepts up to 40 chars, test imports fixed | S2, S3 | inline | done (4 tests) | 90486d6 |
 | T5 | 07-maps: location tests instead of leftover course tests | S2, S3 | inline | done (5 tests) | 677e985, 5ca86f4 |
 | T6 | Local validation script and evidence | S5 | inline | done (14 tests) | |
-| T7 | Open PR fix/integration-e2e-jest-ignores-cypress to CodelyTV | S3 | user | needs-miguel (approve; command in docs/prs/01-fix-integration-e2e-jest.md) | 55cea01 |
-| T8 | Open PR fix/oo-course-title-validation to CodelyTV | S3 | user | needs-miguel (approve; command in docs/prs/02-fix-oo-course-title.md) | 90486d6 |
-| T9 | Open PR test/maps-locations-tests once T7 or T8 is closed | S3 | user | needs-miguel (approve; open only when fewer than 2 PRs are open) | 5ca86f4 |
+| T7 | Open PR fix/integration-e2e-jest-ignores-cypress to CodelyTV | S3 | user | done (https://github.com/CodelyTV/frontend-hexagonal_architecture-course/pull/4) | 55cea01 |
+| T8 | Open PR fix/oo-course-title-validation to CodelyTV | S3 | user | done (https://github.com/CodelyTV/frontend-hexagonal_architecture-course/pull/5) | 90486d6 |
+| T9 | Open PR test/maps-locations-tests once T7 or T8 is closed | S3 | user | pending (approved 2026-11-21; open when #4 or #5 is closed) | 5ca86f4 |
 | T10 | README section, description and 8 topics | S4 | inline | done | |
 | T11 | Independent reviews (code, security, architecture+spec) | S5 | delegated | done (docs/reviews/) | |

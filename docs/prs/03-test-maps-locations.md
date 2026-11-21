@@ -1,6 +1,6 @@
 # PR preparado · `test/maps-locations-tests`
 
-- **Estado:** needs-miguel (aprobar; abrir solo cuando se cierre uno de los dos anteriores: máximo 2 PR abiertos a la vez)
+- **Estado:** aprobado por Miguel el 2026-11-21; en cola hasta que se cierre el #4 o el #5 (máximo 2 PR abiertos a la vez).
 - **Base:** `CodelyTV/frontend-hexagonal_architecture-course:main` · **Head:** `Trysac:test/maps-locations-tests` (commits `677e985`, `5ca86f4`)
 - **Comando para abrirlo** (solo con el OK de Miguel):
 

@@ -19,4 +19,4 @@ none
 | Block | Content | Status | Verify |
 |---|---|---|---|
 | B1 | Sync, diagnosis, 3 PR branches, docs and validation | done | `bash scripts/validate.sh` |
-| B2 | Open the PRs to CodelyTV (max 2 at a time) | needs-miguel (approve each PR) | `gh pr list -R CodelyTV/frontend-hexagonal_architecture-course --author Trysac` |
+| B2 | Open the PRs to CodelyTV (max 2 at a time) | done for #4 and #5 (opened 2026-11-21 with Miguel's OK); test/maps-locations-tests queued | `gh pr list -R CodelyTV/frontend-hexagonal_architecture-course --author Trysac` |

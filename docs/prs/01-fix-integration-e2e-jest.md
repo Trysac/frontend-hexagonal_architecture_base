@@ -1,6 +1,6 @@
 # PR preparado · `fix/integration-e2e-jest-ignores-cypress`
 
-- **Estado:** needs-miguel (aprobar antes de abrir el PR hacia CodelyTV)
+- **Estado:** abierto el 2026-11-21 con el OK de Miguel: https://github.com/CodelyTV/frontend-hexagonal_architecture-course/pull/4
 - **Base:** `CodelyTV/frontend-hexagonal_architecture-course:main` · **Head:** `Trysac:fix/integration-e2e-jest-ignores-cypress` (commits `8f8e868`, `f2ab914`, `55cea01`)
 - **Comando para abrirlo** (solo con el OK de Miguel):
 

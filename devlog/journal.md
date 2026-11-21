@@ -6,3 +6,7 @@
 - **Qué falló:** CRLF en Windows (E001), solape con el PR #1 de upstream (E003), el script de validación al principio (E005–E007), un fallo de ESLint que el diagnóstico no vio (E008, E009), un test con inestabilidad muy baja (E010), un PR de CI que llegaría en rojo (E011), la licencia mal descrita (E012), un archivo vacío perdido en un stash (E013) y un README colado en un PR (E014).
 - **Qué se aprendió:** ver `lessons.md`.
 - **Decisiones:** [ADR 0001](../docs/adr/0001-protocolo-en-forks.md) (ramas vivas para los PR, documentación solo en `main`, `validate.sh` en lugar de `make ci`, etiqueta `forks-a-v1`).
+
+## 2026-11-21 (PRs)
+
+- Miguel approved opening the PRs (2 at most per repo, Outlook identity). Upstream unchanged since 2023, so no sync was needed; no CONTRIBUTING; titles follow the conventional-commit style of the merged PRs. Opened with the prepared Spanish bodies.
